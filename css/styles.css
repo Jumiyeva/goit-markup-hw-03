@@ -153,11 +153,13 @@ body{
 /* --------Heroy-------------*/
 
 .heroy{
-    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: #2F303A;
 }
 
 .heroy-name{
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -168,6 +170,9 @@ body{
 }
 
 .heroy .button{
+    margin: 0 auto;
+    min-width: 200px;
+    height: 50px;
     color: var(--primary-white-color);
     background-color: var(--accent-color) ;
     cursor: pointer;
@@ -218,6 +223,10 @@ body{
     letter-spacing: 0.03em;
 }
 
+.content{
+    padding-top: 0;
+}
+
 .section-name{
     margin-bottom: 50px;
     text-align: center;
@@ -231,6 +240,11 @@ body{
 .work{
     display: flex;
     flex-wrap: wrap;
+}
+
+.profession{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .work .item{
@@ -256,6 +270,8 @@ body{
 }
 
 .worker-name{
+    margin-bottom: 10px;
+    text-align: center;
     color: var(--primary-title-color);
     font-weight: 500;
     font-size: 16px;
@@ -264,6 +280,7 @@ body{
 }
 
 .worker-position{
+    text-align: center;
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.18;    
@@ -291,6 +308,7 @@ body{
 }
 
 .footer .web-studio{
+    display: block;
     margin-bottom: 20px;
     font-family: 'Raleway', sans-serify;
     font-style: normal;
@@ -308,6 +326,7 @@ body{
     color: var(--primary-white-color);
 }
 .footer-item{
+    margin-bottom: 9px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -318,17 +337,17 @@ body{
 
 .filter{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
-.filter-item{
+/* .filter-item{
     width: calc((100% - 32px)/5);
-    margin-right: 8px;
-}
+   margin-right: 8px;
+} */
 
-.filter-item:nth-child(5n){
-    margin-right: 0;
+.filter-item:not(:last-child) {
+    margin-right: 8px;
 }
 
 .projects{
@@ -344,9 +363,11 @@ body{
 .projects-item:nth-child(3n){
     margin-right: 0;
 }
+.projects-item{
+    margin-bottom: 30px;
+}
 
 .project-name{
-    margin-top: 20px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -359,6 +380,10 @@ body{
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+}
+
+.project-kind{
+    padding: 20px 24px;
 }
 
 .filter-btn{
