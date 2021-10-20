@@ -171,8 +171,11 @@ body{
 
 .heroy .button{
     margin: 0 auto;
+    padding: 10px 32px;
     min-width: 200px;
     height: 50px;
+    border-radius: 4px;
+    border: 1px solid var(--accent-color);
     color: var(--primary-white-color);
     background-color: var(--accent-color) ;
     cursor: pointer;
@@ -185,11 +188,11 @@ body{
     letter-spacing: 0.06em;
 }
 
-.filter .button{
+/* .filter .button{
     color: var(--primary-white-color);
     background-color: var(--accent-color) ;
     cursor: pointer;
-}
+} */
 
 .peculiarities-list{
     display: flex;
@@ -387,6 +390,9 @@ body{
 }
 
 .filter-btn{
+    padding: 6px 22px;
+    border: 1px solid #F5F4FA;
+    border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -399,4 +405,5 @@ body{
 .filter-btn:hover,
 .filter-btn:focus{
     background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
