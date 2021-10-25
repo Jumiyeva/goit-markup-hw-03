@@ -367,6 +367,7 @@ body{
 
 .projects-item{
     width: calc((100% - 60px)/3);
+    border: 1px solid #EEEEEE;
     margin-right: 30px;
 }
 
