@@ -323,17 +323,24 @@ body{
 }
 
 .footer .footer-link{
+    display: block;
+    margin-bottom: 9px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
+
 }
 .footer-item{
+    display: block;
     margin-bottom: 9px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel{
+   margin-bottom: 0;
 }
 
 /*PORTFOLIO*/
